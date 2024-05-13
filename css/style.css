@@ -48,8 +48,8 @@ body {
 
 /* ============================ Logo part ====================== */
 .header-wrapper {
-    max-height: 109px;
-    display: flex;
+  max-height: 109px;
+  display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 0 80px;
@@ -57,19 +57,18 @@ body {
 
 .logo-wrapper {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  
-  }
+}
 
-  .logo-link {
-    padding-top: 12px;
-    padding-bottom: 12px;
-  }
+.burger-btn-link {
+  display: none;
+}
 
-
-
+.logo-link {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
 
 /* ========================= Navigation part ===================== */
 
@@ -94,12 +93,12 @@ body {
 }
 
 .nav-menu-heart-svg {
-    stroke: #266294;
+  stroke: #266294;
 }
 
 .nav-cabinet-svg {
-    stroke: #266294;
-    margin-right: 28px;
+  stroke: #266294;
+  margin-right: 28px;
 }
 
 .header-btn {
@@ -114,18 +113,17 @@ body {
   font-family: inherit;
   border: 3px solid #266294;
   padding: 12px 28px;
-  transition: background-color 250ms cubic-bezier(.17,.67,.83,.67),
-              border 250ms cubic-bezier(.17,.67,.83,.67)
+  transition: background-color 250ms cubic-bezier(0.17, 0.67, 0.83, 0.67),
+    border 250ms cubic-bezier(0.17, 0.67, 0.83, 0.67);
 }
 
-.header-btn:hover{
-    background: #b5d9f8
+.header-btn:hover {
+  background: #b5d9f8;
 }
 
 .header-btn:disabled {
-    color:#627382;
+  color: #627382;
 }
-
 
 /* --------------------------- Hero section ======================== */
 
@@ -137,7 +135,6 @@ body {
   min-height: 850px;
   display: flex;
   position: relative;
-  
 }
 
 .header-text {
@@ -146,76 +143,74 @@ body {
   margin-left: 100px;
   margin-top: 160px;
   position: relative;
-  max-width: 509px;
-  
+  max-width: 600px;
 }
 
 .hero-header-big {
-font-weight: 700;
-font-size: 96px;
-line-height: 125%;
-text-transform: uppercase;
-color: #f8f7f7;
-
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 125%;
+  text-transform: uppercase;
+  color: #f8f7f7;
 }
 
 .hero-header-small {
-font-size: 32px;
-line-height: 100%;
-margin-bottom: 240px;
-color: #f8f7f7;
+  font-size: 32px;
+  line-height: 100%;
+  margin-bottom: 240px;
+  color: #f8f7f7;
 }
 
 .baloon-img {
   position: absolute;
   top: 80px;
-  right: 360px;
+  right: 220px;
 }
 
 .hero-btn-wrapper {
   display: flex;
+  gap: 42px;
 }
 
 .hero-btn-find {
   border: 1px solid #e96e25;
-padding: 16px 32px;
-width: 235px;
-height: 48px;
-background: #e96e25;
-font-weight: 700;
-font-size: 16px;
-line-height: 100%;
-text-align: center;
-color: #f8f7f7;
-transition: background-color 350ms cubic-bezier(.17,.67,.83,.67),
-              border 250ms cubic-bezier(.17,.67,.83,.67)
-
+  padding: 16px 32px;
+  width: 235px;
+  height: 48px;
+  background: #e96e25;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 100%;
+  text-align: center;
+  color: #f8f7f7;
+  transition: background-color 350ms cubic-bezier(0.17, 0.67, 0.83, 0.67),
+    border 250ms cubic-bezier(0.17, 0.67, 0.83, 0.67);
 }
 
 .hero-btn-add {
-border: 2px solid #e96e25;
-padding: 16px 32px;
-width: 235px;
-height: 48px;
-background-color: transparent;
-font-weight: 700;
-font-size: 16px;
-line-height: 100%;
-text-align: center;
-color: #e96e25;
-transition: background-color 350ms cubic-bezier(.17,.67,.83,.67),
-              border 250ms cubic-bezier(.17,.67,.83,.67);
-            
-margin-bottom: 130px;
+  border: 2px solid #e96e25;
+  padding: 16px 32px;
+  width: 235px;
+  height: 48px;
+  background-color: transparent;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 100%;
+  text-align: center;
+  color: #e96e25;
+  transition: background-color 350ms cubic-bezier(0.17, 0.67, 0.83, 0.67),
+    border 250ms cubic-bezier(0.17, 0.67, 0.83, 0.67);
+
+  margin-bottom: 130px;
 }
 
 .hero-btn-find:hover {
-  background-color:#ffe4d4;
+  background-color: #ffe4d4;
   color: #e96e25;
 }
 
 .hero-btn-find:focus {
-  background-color:#ffe4d4;
+  background-color: #ffe4d4;
 }
 
 .hero-btn-find:disabled {
@@ -225,11 +220,11 @@ margin-bottom: 130px;
 }
 
 .hero-btn-add:hover {
-  background-color:#ffe4d4;
+  background-color: #ffe4d4;
 }
 
 .hero-btn-add:focus {
-  background-color:#ffe4d4;
+  background-color: #ffe4d4;
 }
 
 .hero-btn-add:disabled {
@@ -237,14 +232,16 @@ margin-bottom: 130px;
   border: 3px solid #977e6f;
 }
 
-
-
-
 /* =========================== Media ===================== */
 
-/* @media (max-width: 834px) {
-  .header-wrapper {
+@media screen and (max-width: 834px) {
+  .container {
     max-width: 834px;
+    margin: 0 auto;
+  }
+
+  .header-wrapper {
+    min-width: 834px;
     max-height: 86px;
     margin: 0 auto;
     display: flex;
@@ -254,22 +251,112 @@ margin-bottom: 130px;
     padding-right: 32px;
   }
 
-.logo-img {
-  width: 73px;
-  height: 62px;
-}  
+  .logo-img {
+    width: 73px;
+    height: 62px;
+    display: block;
+  }
 
-.nav-menu-set {
- font-size: 16px;
+  .burger-btn-link {
+    display: none;
+  }
+
+  .nav-menu-set {
+    font-size: 16px;
+    gap: 20px;
+  }
+
+  .header-btn {
+    border: 3px solid #266294;
+    padding: 12px 23px;
+    width: 168px;
+    height: 40px;
+    font-size: 16px;
+  }
+
+  .hero-wraper {
+    background-image: url(../images/Tablet/Hero_section@1x.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    max-width: 834px;
+    min-height: 850px;
+    display: flex;
+  }
+
+  .header-text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 32px;
+    margin-top: 100px;
+    position: relative;
+    max-width: 600px;
+  }
+
+  .baloon-img {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
+  .hero-header-small {
+    margin-bottom: 110px;
+  }
 }
 
-.header-btn {
-  border: 3px solid #266294;
-padding: 12px 23px;
-width: 168px;
-height: 40px;
-font-size: 16px;
+@media screen and (max-width: 390px) {
+  .container {
+    max-width: 390px;
+    margin: 0 auto;
+  }
 
+  .header-wrapper {
+    max-width: 390px;
+    max-height: 86px;
+    margin: 0 auto;
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+  }
+
+  .burger-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    fill: #266294;
+  }
+
+  .header-btn {
+    border: 2px solid #266294;
+    padding: 12px 16px;
+    width: 139px;
+    height: 38px;
+    font-size: 14px;
+  }
+
+  .logo-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+
+  .nav-menu-set {
+    display: none;
+  }
 }
-
-} */

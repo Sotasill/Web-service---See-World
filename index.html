@@ -26,8 +26,15 @@
       <div class="header">
         <div class="header-wrapper container">
           <div class="logo-wrapper">
+            <a class="burger-btn-link" href="#" target="_blank"><button class="burger-btn" type="button"></button><svg class="burger-btn-icon" width="40" height="30"><use href="./images/symbol-defs.svg#icon-burger-button"></use></svg></a>
             <a class="logo-link" href="#" target="_blank"
-              ><img class="logo-img" src="./images/PNG/Logo-desktop.png" alt="logo" width="87" height="85">
+              >
+              <picture>
+                <source srcset="./images/PNG/Logo-desktop.png" media="(max-width: 1440px)">
+                <source srcset="./images/PNG/Logo-tablet.png" media="(max-width: 834px)">
+                <source srcset="./images/PNG/Logo-mobile.png" media="(max-width: 390px)">
+                <img class="logo-img" src="./images/PNG/Logo-desktop.png" alt="logo" width="" height="">
+              </picture>
               
             </a>
           </div>
@@ -58,7 +65,7 @@
       <div class="hero-wraper container">
         <div class="header-text">
           <h1 class="hero-header-big">Знайди своє місце</h1>
-        <h2 class="hero-header-small">Подорожуй зі смаком</h2>
+          <h2 class="hero-header-small">Подорожуй зі смаком</h2>
         <img class="baloon-img" src="./images/PNG/pict small.png" alt="baloon" width="83" height="102">
         <div class="hero-btn-wrapper">
           <button class="hero-btn-find" type="button">Знайти оголошення</button>

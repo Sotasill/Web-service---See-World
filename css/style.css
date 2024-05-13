@@ -1,0 +1,275 @@
+/* ======================Global styles =========================== */
+
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+li {
+  margin: 0;
+  padding-left: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+li {
+  list-style-type: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+body {
+  font-family: "Play", sans-serif;
+  color: #111111;
+  background-color: #ebf8ff;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+/* ======================== Header =========================== */
+
+/* ============================ Logo part ====================== */
+.header-wrapper {
+    max-height: 109px;
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 80px;
+}
+
+.logo-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  }
+
+  .logo-link {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+
+
+
+
+/* ========================= Navigation part ===================== */
+
+.nav-menu-set {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  color: #266294;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 130%;
+  text-align: center;
+  color: #266294;
+}
+
+.nav-menu-heart-svg {
+  display: inline;
+}
+
+.nav-menu-item:last-child {
+}
+
+.nav-menu-heart-svg {
+    stroke: #266294;
+}
+
+.nav-cabinet-svg {
+    stroke: #266294;
+    margin-right: 28px;
+}
+
+.header-btn {
+  width: 209px;
+  height: 48px;
+  background-color: transparent;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 100%;
+  text-align: center;
+  color: #266294;
+  font-family: inherit;
+  border: 3px solid #266294;
+  padding: 12px 28px;
+  transition: background-color 250ms cubic-bezier(.17,.67,.83,.67),
+              border 250ms cubic-bezier(.17,.67,.83,.67)
+}
+
+.header-btn:hover{
+    background: #b5d9f8
+}
+
+.header-btn:disabled {
+    color:#627382;
+}
+
+
+/* --------------------------- Hero section ======================== */
+
+.hero-wraper {
+  background-image: url(../images/Desktop/hero@x1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 850px;
+  display: flex;
+  position: relative;
+  
+}
+
+.header-text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+  margin-top: 160px;
+  position: relative;
+  max-width: 509px;
+  
+}
+
+.hero-header-big {
+font-weight: 700;
+font-size: 96px;
+line-height: 125%;
+text-transform: uppercase;
+color: #f8f7f7;
+
+}
+
+.hero-header-small {
+font-size: 32px;
+line-height: 100%;
+margin-bottom: 240px;
+color: #f8f7f7;
+}
+
+.baloon-img {
+  position: absolute;
+  top: 80px;
+  right: 360px;
+}
+
+.hero-btn-wrapper {
+  display: flex;
+}
+
+.hero-btn-find {
+  border: 1px solid #e96e25;
+padding: 16px 32px;
+width: 235px;
+height: 48px;
+background: #e96e25;
+font-weight: 700;
+font-size: 16px;
+line-height: 100%;
+text-align: center;
+color: #f8f7f7;
+transition: background-color 350ms cubic-bezier(.17,.67,.83,.67),
+              border 250ms cubic-bezier(.17,.67,.83,.67)
+
+}
+
+.hero-btn-add {
+border: 2px solid #e96e25;
+padding: 16px 32px;
+width: 235px;
+height: 48px;
+background-color: transparent;
+font-weight: 700;
+font-size: 16px;
+line-height: 100%;
+text-align: center;
+color: #e96e25;
+transition: background-color 350ms cubic-bezier(.17,.67,.83,.67),
+              border 250ms cubic-bezier(.17,.67,.83,.67);
+            
+margin-bottom: 130px;
+}
+
+.hero-btn-find:hover {
+  background-color:#ffe4d4;
+  color: #e96e25;
+}
+
+.hero-btn-find:focus {
+  background-color:#ffe4d4;
+}
+
+.hero-btn-find:disabled {
+  color: #f8f7f7;
+  background-color: #977e6f;
+  border: 3px solid #977e6f;
+}
+
+.hero-btn-add:hover {
+  background-color:#ffe4d4;
+}
+
+.hero-btn-add:focus {
+  background-color:#ffe4d4;
+}
+
+.hero-btn-add:disabled {
+  color: #977e6f;
+  border: 3px solid #977e6f;
+}
+
+
+
+
+/* =========================== Media ===================== */
+
+/* @media (max-width: 834px) {
+  .header-wrapper {
+    max-width: 834px;
+    max-height: 86px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+.logo-img {
+  width: 73px;
+  height: 62px;
+}  
+
+.nav-menu-set {
+ font-size: 16px;
+}
+
+.header-btn {
+  border: 3px solid #266294;
+padding: 12px 23px;
+width: 168px;
+height: 40px;
+font-size: 16px;
+
+}
+
+} */

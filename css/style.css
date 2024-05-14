@@ -89,8 +89,7 @@ body {
   display: inline;
 }
 
-.nav-menu-item:last-child {
-}
+
 
 .nav-menu-heart-svg {
   stroke: #266294;
@@ -135,6 +134,7 @@ body {
   min-height: 850px;
   display: flex;
   position: relative;
+  margin-bottom: 52px;
 }
 
 .header-text {
@@ -232,8 +232,85 @@ body {
   border: 3px solid #977e6f;
 }
 
-/* =========================== Media ===================== */
 
+/* ====================== Second section ===================== */
+/* .second-section {
+  max-width: 1280px;
+  margin-left: 80px;
+  margin-right: 80px;
+} */
+
+.medium-title {
+font-weight: 700;
+font-size: 40px;
+line-height: 100%;
+text-align: left;
+color: #111;
+margin-left: 270px;
+margin-bottom: 32px;
+}
+
+.template-set{
+  display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    row-gap: 10px;
+    column-gap: 32px;
+    width: 100%; 
+    max-width: 1280px;
+    margin: 0 auto;
+    
+  
+}
+
+.second-section-template {
+display: flex;
+    align-items: center;
+    width: 100%;
+    flex: 1;
+    justify-content: center;
+    transition: box-shadow 300ms cubic-bezier(0.075, 0.82, 0.165, 1);
+
+}
+
+.second-section-template:hover{
+  box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.75);
+}
+
+.small-title {
+  font-weight: 700;
+font-size: 32px;
+line-height: 100%;
+text-align: center;
+color: #111;
+}
+
+.section-img {
+  margin-top: 36px;
+  margin-bottom: 28px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =========================== Media ===================== */
+/* 
 @media screen and (max-width: 834px) {
   .container {
     max-width: 834px;
@@ -359,4 +436,4 @@ body {
   .nav-menu-set {
     display: none;
   }
-}
+} */

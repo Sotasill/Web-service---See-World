@@ -234,11 +234,9 @@ body {
 
 
 /* ====================== Second section ===================== */
-/* .second-section {
-  max-width: 1280px;
-  margin-left: 80px;
-  margin-right: 80px;
-} */
+ .second-section {
+  margin-bottom: 97px;
+} 
 
 .medium-title {
 font-weight: 700;
@@ -246,7 +244,7 @@ font-size: 40px;
 line-height: 100%;
 text-align: left;
 color: #111;
-margin-left: 270px;
+margin-left: 260px;
 margin-bottom: 32px;
 }
 
@@ -283,12 +281,80 @@ font-size: 32px;
 line-height: 100%;
 text-align: center;
 color: #111;
+padding-bottom: 5px;
+
 }
 
 .section-img {
   margin-top: 36px;
   margin-bottom: 28px;
 }
+
+
+/* ====================== Third Section ======================= */
+
+.third-section {
+margin-bottom: 390px;
+  
+}
+
+.third-section-title{
+  margin-left: 80px;
+  margin-bottom: 70px;
+
+}
+
+.navigation-title-link {
+  font-weight: 700;
+font-size: 20px;
+line-height: 100%;
+text-align: center;
+color: #266294;
+text-decoration: underline;
+}
+
+.navigation-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1280px;
+  margin-bottom: 0;
+  margin-top: 70px;
+  margin-left: 80px;
+}
+
+.third-section-template-set {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  width: 100%; 
+  max-width: 1280px;
+  margin: 0 auto;
+  margin-bottom: 34px;
+
+}
+
+
+
+.under-title-text {
+
+font-weight: 700;
+font-size: 16px;
+line-height: 120%;
+color: #111;
+padding-left: 5px;
+padding-bottom: 5px;
+}
+
+.third-section-template {
+  transition: box-shadow 300ms cubic-bezier(0.075, 0.82, 0.165, 1);
+
+}
+
+.third-section-template:hover{
+  box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.75);
+}
+
 
 
 

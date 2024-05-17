@@ -82,7 +82,7 @@ body {
   font-size: 20px;
   line-height: 130%;
   text-align: center;
-  color: #266294;
+  
 }
 
 .nav-menu-heart-svg {
@@ -356,10 +356,110 @@ padding-bottom: 5px;
 }
 
 
+/* =================================== Section Four ============================ */
 
 
 
+.icon-star{
+  display: flex;
+}
 
+.icon-star-svg {
+  fill: #266294;
+}
+
+
+.under-title-text-up {
+  font-weight: 700;
+font-size: 16px;
+line-height: 120%;
+color: #111;
+padding-left: 13px;
+margin-bottom: 8px;
+
+}
+
+.under-title-text-low {
+  
+font-weight: 700;
+font-size: 16px;
+line-height: 100%;
+color: #766f6f;
+padding-left: 13px;
+margin-bottom: 8px;
+}
+
+.icon-text {
+font-weight: 700;
+font-size: 14px;
+line-height: 100%;
+color: #266294;
+}
+
+
+/* ========================== Footer =================== */
+
+.footer-wrapper {
+  max-width: 1440px;
+  max-height: 211px;
+  background-color: #CFE7F5;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 34px;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-bottom: 28px;
+
+}
+
+.logo-wrapper-footer {
+  display: flex;
+  
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.logo-text {
+  font-weight: 700;
+font-size: 16px;
+line-height: 130%;
+color: #266294;
+padding-top: 80px;
+}
+
+.nav-footer-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 64px;
+  color: #266294;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 130%;
+  text-align: center;
+}
+
+.social-links-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 28px;
+}
+
+.footer-social-icons {
+  stroke: #266294;
+  fill: none;
+}
+
+.footer-social-icons:hover {
+  fill: #ebf8ff;
+}
+
+.footer-social-icons:focus {
+  fill: #ebf8ff;
+}
 
 
 

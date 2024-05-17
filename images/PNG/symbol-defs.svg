@@ -1,0 +1,7 @@
+<svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<symbol id="icon-Star" viewBox="0 0 35 32">
+<path fill="none" stroke="#f8f7f7" style="stroke: var(--color1, #f8f7f7)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="2.2069" d="M13.118 10.459l4.537-8.183 4.537 8.183c0.19 0.342 0.521 0.583 0.905 0.658l9.184 1.786-6.38 6.844c-0.267 0.286-0.393 0.676-0.346 1.064l1.139 9.287-8.48-3.953c-0.355-0.165-0.764-0.165-1.119 0l-8.48 3.953 1.139-9.287c0.048-0.388-0.079-0.778-0.346-1.064l-6.381-6.844 9.184-1.786c0.384-0.075 0.716-0.315 0.905-0.658z"></path>
+</symbol>
+</defs>
+</svg>
